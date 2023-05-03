@@ -206,7 +206,7 @@ const testimonials = [
     {
         testimonial:
             "Ses connaissances et sa perspicacité m'ont aidé à prendre les bonnes décisions pour mon entreprise. Il est toujours disponible quand j'ai besoin de lui et ses conseils sont justes. Il m'a permis de faire passer mon entreprise au niveau supérieur et je lui en suis très reconnaissant.",
-        name: "Chris Brown",
+        name: "Maitre GIMS",
         designation: "COO",
         company: "DEF Corp",
         image: "https://randomuser.me/api/portraits/men/5.jpg",

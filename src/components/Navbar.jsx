@@ -3,8 +3,6 @@ import { Link } from 'react-router-dom';
 import { styles } from '../styles';
 import { navLinks } from '../constants';
 import { logo, menu, close } from '../assets';
-import ReactAudioPlayer from 'react-audio-player';
-import '../assets/music.mp3';
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -23,16 +21,6 @@ const Navbar = () => {
           <img src={logo} alt="logo" className='w-12 h-12 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer'>Thomas Sebasti</p>
         </Link>
-        <div style={{ backgroundColor: 'transparent', color: 'red' }}>
-          <ReactAudioPlayer
-            src="../src/assets/music.mp3"
-            controls
-            autoPlay={false}
-            loop
-            onLoadedData={(e) => e.target.play()}
-            className="hidden sm:block"
-          />
-        </div>
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((link) => (
             <li
