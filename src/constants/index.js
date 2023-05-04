@@ -27,27 +27,41 @@ import {
     createcard,
     mdp,
     portfolio,
+    pokemon,
     jobit,
     tripguide,
     threejs,
+    cv,
+    users
 } from "../assets";
 
 export const navLinks = [
     {
+        id: "cv",
+        title: "CV",
+        src: cv,
+    },
+    {
         id: "about",
         title: "À propos",
+        src: "#about"
     },
     {
         id: "experience",
         title: "Expérience",
+        src: "#experience",
     },
     {
         id: "realisations",
         title: "Réalisations",
+        src: "#realisations",
+
     },
     {
         id: "contact",
         title: "Contact",
+        src: "#contact",
+
     },
 ];
 
@@ -57,6 +71,10 @@ const services = [
         icon: web,
     },
     {
+        title: "Développeur Mobile",
+        icon: creator,
+    },
+    {
         title: "Développeur Front-end",
         icon: mobile,
     },
@@ -64,10 +82,6 @@ const services = [
         title: "Développeur Back-end",
         icon: backend,
     },
-    // {
-    //     title: "Content Creator",
-    //     icon: creator,
-    // },
 ];
 
 const technologies = [
@@ -313,6 +327,48 @@ const projects = [
         ],
         image: portfolio,
         source_code_link: "https://github.com/Kleysius/PasswordGenerator-Login.git",
+    },
+    {
+        name: "Pokemon API",
+        description:
+            "[Entraînement à l'utilisation d'une API] Ce site web permet de rechercher via une API un pokemon par son nom ou son identifiant. Il est possible d'afficher et de voir le détail de chaque pokemon.",
+        tags: [
+            {
+                name: "html",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "javascript",
+                color: "green-text-gradient",
+            },
+            {
+                name: "css",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: pokemon,
+        source_code_link: "https://github.com/Kleysius/Pokemon-API.git",
+    },
+    {
+        name: "Users API",
+        description:
+            "[Entraînement à l'utilisation d'une API] Cette application permet de visualiser les utilisateurs récupérés sur une API. On peut voir le détail de chaque utilisateur, en ajouter un nouveau, le modifier ou le supprimer.",
+        tags: [
+            {
+                name: "html",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "javascript",
+                color: "green-text-gradient",
+            },
+            {
+                name: "css",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: users,
+        source_code_link: "https://github.com/Kleysius/Users-API.git",
     },
 ];
 

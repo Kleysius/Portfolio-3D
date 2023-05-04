@@ -6,6 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import cv from "./CVThomasDevWeb.pdf";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -36,6 +37,8 @@ import framework from "./framework.png";
 import createcard from "./createcard.png";
 import mdp from "./mdpgenerator.png";
 import portfolio from "./3dportfolio.png";
+import pokemon from "./pokemonAPI.png";
+import users from "./userAPI.png";
 
 export {
   logo,
@@ -73,4 +76,7 @@ export {
   portfolio,
   jobit,
   tripguide,
+  cv,
+  pokemon,
+  users
 };
