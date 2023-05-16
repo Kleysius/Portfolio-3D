@@ -16,7 +16,7 @@ const App = () => {
         <Experience />
         <Tech />
         <Works />
-        <Feedbacks />
+        {/* <Feedbacks /> */}
         <div className="relative z-0">
           <Contact />
         </div>
@@ -25,4 +25,4 @@ const App = () => {
   )
 }
 
-export default App
+export default App;

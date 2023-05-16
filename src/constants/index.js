@@ -32,7 +32,9 @@ import {
     tripguide,
     threejs,
     cv,
-    users
+    users,
+    sumz,
+    mario,
 } from "../assets";
 
 export const navLinks = [
@@ -237,9 +239,51 @@ const testimonials = [
 
 const projects = [
     {
+        name: "Mario Game",
+        description:
+            "Création d'un jeu Mario de type Sidescroller en suivant un tutoriel sur Youtube et en le modifiant pour le rendre plus personnel. Ce tutoriel m'a permis d'apprendre à utiliser canvas et à créer un jeu en JavaScript.",
+        tags: [
+            {
+                name: "html",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "javascript",
+                color: "green-text-gradient",
+            },
+            {
+                name: "canvas",
+                color: "orange-text-gradient",
+            }
+        ],
+        image: mario,
+        source_code_link: "https://github.com/Kleysius/Mario-Game.git",
+    },
+    {
+        name: "AI Summarizer",
+        description:
+            "J'utilise une API qui extrait le corps de l'article d'une URL et utilise GPT pour résumer le contenu de l'article. Utile pour l'exploration de texte. Les URLs sont enregistrées, peuvent être copiées et supprimées.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "javascript",
+                color: "green-text-gradient",
+            },
+            {
+                name: "tailwind",
+                color: "pink-text-gradient",
+            }
+        ],
+        image: sumz,
+        source_code_link: "https://github.com/Kleysius/AI-Resume.git",
+    },
+    {
         name: "Frameworks",
         description:
-            "Un des premiers sites que j'ai développé pour m'entraîner à coder en HTML, CSS et JavaScript. J'ai inclu sur la page d'accueil un effet parralax très joli visuellement.",
+            "Reproduction d'un site vitrine - Un des premiers sites que j'ai développé pour m'entraîner à coder en HTML, CSS et JavaScript. J'ai inclu sur la page d'accueil un effet parralax très joli visuellement.",
         tags: [
             {
                 name: "html",
@@ -306,7 +350,7 @@ const projects = [
     {
         name: "Portfolio 3D",
         description:
-            "Le portfolio sur lequel vous êtes actuellement. Développé en suivant un livecoding qui m'a beaucoup appris sur les frameworks React, Tailwind ainsi que Three.js et Canvas.",
+            "Portfolio développé en suivant un livecoding qui m'a beaucoup appris sur les frameworks React, Tailwind ainsi que Three.js et Canvas. J'ai ensuite modifié le site pour le rendre plus personnel.",
         tags: [
             {
                 name: "react",
@@ -331,7 +375,7 @@ const projects = [
     {
         name: "Pokemon API",
         description:
-            "[Entraînement à l'utilisation d'une API] Ce site web permet de rechercher via une API un pokemon par son nom ou son identifiant. Il est possible d'afficher et de voir le détail de chaque pokemon.",
+            "Ce site web permet de rechercher via une API un pokemon par son nom ou son identifiant. Il est possible d'afficher et de voir le détail de chaque pokemon.",
         tags: [
             {
                 name: "html",
@@ -352,7 +396,7 @@ const projects = [
     {
         name: "Users API",
         description:
-            "[Entraînement à l'utilisation d'une API] Cette application permet de visualiser les utilisateurs récupérés sur une API. On peut voir le détail de chaque utilisateur, en ajouter un nouveau, le modifier ou le supprimer.",
+            "Cette application permet de visualiser les utilisateurs récupérés sur une API. On peut voir le détail de chaque utilisateur, en ajouter un nouveau, le modifier ou le supprimer.",
         tags: [
             {
                 name: "html",

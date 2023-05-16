@@ -39,6 +39,8 @@ import mdp from "./mdpgenerator.png";
 import portfolio from "./3dportfolio.png";
 import pokemon from "./pokemonAPI.png";
 import users from "./userAPI.png";
+import sumz from "./sumzAI.png";
+import mario from "./mario-game.png";
 
 export {
   logo,
@@ -78,5 +80,7 @@ export {
   tripguide,
   cv,
   pokemon,
-  users
+  users,
+  sumz,
+  mario,
 };
