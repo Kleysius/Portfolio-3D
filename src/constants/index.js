@@ -8,33 +8,27 @@ import {
     html,
     css,
     reactjs,
-    redux,
     php,
     tailwind,
     nodejs,
     mongodb,
     git,
     figma,
-    docker,
     meta,
-    starbucks,
-    tesla,
-    shopify,
     pebeo,
     ecole,
-    carrent,
     framework,
     createcard,
     mdp,
     portfolio,
     pokemon,
-    jobit,
-    tripguide,
     threejs,
     cv,
     users,
     sumz,
     mario,
+    grill,
+    applirh,
 } from "../assets";
 
 export const navLinks = [
@@ -111,10 +105,6 @@ const technologies = [
         name: "React JS",
         icon: reactjs,
     },
-    // {
-    //     name: "Redux Toolkit",
-    //     icon: redux,
-    // },
     {
         name: "Tailwind CSS",
         icon: tailwind,
@@ -139,10 +129,6 @@ const technologies = [
         name: "figma",
         icon: figma,
     },
-    // {
-    //     name: "docker",
-    //     icon: docker,
-    // },
 ];
 
 const experiences = [
@@ -413,6 +399,48 @@ const projects = [
         ],
         image: users,
         source_code_link: "https://github.com/Kleysius/Users-API.git",
+    },
+    {
+        name: "GrillMasters",
+        description:
+            "Un site vitrine d'un FastFood que j'ai appelé GrillMasters. Possibilité de consulter le menu, les services proposés et une partie contact. From scratch, responsive.",
+        tags: [
+            {
+                name: "html",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "javascript",
+                color: "green-text-gradient",
+            },
+            {
+                name: "css",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: grill,
+        source_code_link: "https://github.com/Kleysius/FastFood-Website.git",
+    },
+    {
+        name: "Application RH",
+        description:
+            "Une plateforme qui permet de gérer des employés, possibilité d'en ajouter, les supprimer, les modifier ou les blâmer. Une inscription est requise pour se connecter à l'application.",
+        tags: [
+            {
+                name: "twig",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "tailwind",
+                color: "green-text-gradient",
+            },
+            {
+                name: "nodejs",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: applirh,
+        source_code_link: "https://github.com/Kleysius/ApplicationRH.git",
     },
 ];
 

@@ -41,6 +41,8 @@ import pokemon from "./pokemonAPI.png";
 import users from "./userAPI.png";
 import sumz from "./sumzAI.png";
 import mario from "./mario-game.png";
+import grill from "./grillmasters.png";
+import applirh from "./projet-rh.png";
 
 export {
   logo,
@@ -83,4 +85,6 @@ export {
   users,
   sumz,
   mario,
+  grill,
+  applirh
 };
